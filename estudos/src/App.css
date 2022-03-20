@@ -1,0 +1,34 @@
+.fullscreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: lime; /* Just to visualize the extent */
+  text-align: center;
+}
+
+.centralizado{
+  width: 35%;
+  display: inline-block;
+  align-items: center;
+}
+
+.formTeste {
+  margin: 15%;
+}
+
+.planoAzul {
+  background-color: blue;
+  color: white;
+}
+
+.planoVerde {
+  background-color: green;
+  color: white;
+}
+
+.planoAmarelo {
+  background-color: yellow;
+  color: white;
+}
