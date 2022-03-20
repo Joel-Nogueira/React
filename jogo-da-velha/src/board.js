@@ -1,9 +1,10 @@
 import React from 'react';
 import Square from './square';
+import "./principal.css";
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square />;
+    return <Square value={i}/>;
   }
 
   render() {
